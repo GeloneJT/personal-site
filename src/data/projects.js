@@ -1,47 +1,57 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Just Your Teams - React',
+    subtitle: 'Just Your Teams - React',
+    link: 'https://rut-react-just-your-teams.herokuapp.com/',
+    image: '/images/projects/jyt-landing.jpg',
+    date: '2021-04-06',
+    repotitle: 'Just Your Teams Repository',
+    github: 'https://github.com/GeloneJT/react-just-your-teams',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'A Full Stack group project built from the ground up showcasing'
+      + 'MERN technologies working congruently with Foundation CSS. Using Passport.js the user creates an account or logs in '
+      + 'to follow their favorite English Premier League to see upcoming matches and previous results. A chat feature is also available '
+      + 'to chat with other users based on team preference. Further development will offer professional and eSports leagues teams to be followed.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Google Books',
+    subtitle: 'Search for books by title or author',
+    link: 'https://rut-react-google-books.herokuapp.com',
+    image: '/images/projects/gb-demo.jpg',
+    date: '2021-04-14',
+    repotitle: 'Google Books Repository',
+    github: ' https://github.com/GeloneJT/react-google-books',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'A React-based application providing the user with the ability to search and save book titles. '
+      + 'Google Books returns a search list of books either identical or nearly identical to the search query,'
+      + 'allowing the user to create a save list of which can also be removed from.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'CoinFinder',
+    subtitle: 'A cyptocurrency vendor app.',
+    link: 'https://daveyrojo.github.io/CoinFinder',
+    image: '/images/projects/cf-logo.jpg',
+    date: '2021-02-17',
+    repotitle: 'CoinFinder Repository',
+    github: 'https://github.com/daveyrojo/CoinFinder',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'A front-end project group project tailored to allow a user to search for vendors '
+      + 'whom accept cyptocurrencies as a payment option. Uses two different API calls'
+      + ' to generate a Google Maps interface with pins to show compatible locations.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Password Generator',
+    subtitle: 'A password randomizer',
+    link: 'https://gelonejt.github.io/pwGeneratorJS/',
+    image: '/images/projects/pwgen.jpg',
+    date: '2021-02-15',
+    repotitle: 'Password Generator Repository',
+    github: 'https://github.com/GeloneJT/pwGeneratorJS',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'A web based password randomizer built with modern JavaScirpt. '
+      + 'The user is fed prompts to generate a randomized password based on desired password length, '
+      + 'with or without upper/lowercase letters, and numerical/special characters. The randomizer is able to generate up to 1.4 e+12 possible combinations.',
   },
 ];
 

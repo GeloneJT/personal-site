@@ -1,109 +1,33 @@
 const positions = [
   {
-    company: 'Arthena',
-    position: 'Co-founder, C.T.O.',
-    link: 'https://arthena.com',
-    daterange: 'January 2014 - Present',
-    points: [
-      'Deployed quantitative strategies to predict the value of fine art in various pricing contexts.',
-      'Built production, on-line, end-to-end optimized machine learning pipelines with Pandas, Numpy, Scikit, Tensorflow, Dagster, Postgres, etc. on GCP with Kubernetes.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      'YC Alumn. Worked on everything. Built a 16-person team. Operated company for 6+ years.',
-    ],
+    company: 'GalaxE.Solutions',
+    position: 'Software Developer',
+    link: 'https://galaxe.com',
+    daterange: 'October 2021 - Present',
+    points: ['Supporting internal/external GalaxE.Solutions projects.', 'Work on projects at customer facilities and development centers.'],
+
   },
   {
-    company: 'Skeptical Investments',
-    position: 'Co-founder',
-    link: 'http://skepticalinvestments.biz',
-    daterange: 'April 2017 - Present',
-    points: [
-      'Founded a micro-vc fund to throw token amounts of money at problems I find interesting.',
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
-    ],
+    company: 'JP Morgan & Chase',
+    position: 'Social Good Hackathon Participant',
+    link: 'https://careers.jpmorgan.com/us/en/students/programs/code-for-good',
+    daterange: 'August 2021',
+    points: ['A 12 hour hackathon sponsored by JP Morgan giving developers the opportunity to use their coding skills to solve real-world challenges and network with other software engineers.', 'Teams are given a challenge statement in range of important social issues financial companies face and are instructed to build an application colloborating their technological skillsets the meet the project MVP within the 12 hour time limit.'],
+
   },
   {
-    company: 'Enveritas',
-    position: 'Consultant',
-    link: 'http://enveritas.org',
-    daterange: 'September 2016 - 2018',
-    points: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM’s, and other techniques.',
-    ],
+    company: 'OPKO Health Inc | BioReference Labs',
+    position: 'Specimen Processor',
+    link: 'https://www.bioreference.com/about/about-opko-health/',
+    daterange: 'August 2018 - October 2021',
+    points: ['Verify patient specimens against requisitions to confirm accuracy to what the client claims to have sent to the lab.', 'Prepare specimens by entering patient information and test codes into a database.', 'Enter patient and doctor information with complete clarity and accuracy to ensure no errors are created when sent to technicians.', 'Place correct labeling, and reconfirm the accuracy of entered specimen information to which are then routed to relevant departments.'],
   },
   {
-    company: 'Zenysis',
-    position: 'Consultant',
-    link: 'https://zenysis.com',
-    daterange: 'February 2016 - March 2016',
-    points: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
-    ],
-  },
-  {
-    company: 'Matroid',
-    position: 'Co-founder',
-    link: 'https://matroid.com',
-    daterange: 'July 2015 - January 2016',
-    points: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Node.JS, Express, Keystone, MongoDB, AWS, S3, Caffe, and other technologies.',
-      'Received Series A term sheets for 20M+ valuations.',
-    ],
-  },
-  {
-    company: 'Planet',
-    position: 'Missions Intern',
-    link: 'https://planet.com',
-    daterange: 'June 2014 - January 2015',
-    points: [
-      'Built models to improve image quality, signal to noise ratio, and dynamic range.',
-      'Performed statistical analysis of image quality in Matlab and Python.  Developed flight software in C++.',
-      'Organized first hackathon, prototyped hardware, and designed and built photography equipment for rocket launches.',
-    ],
-  },
-  {
-    company: 'Planetary Resources',
-    position: 'Avionics Intern',
-    link: 'http://planetaryresources.com',
-    daterange: 'January 2014 - May 2014',
-    points: [
-      'Developed simulations in Matlab for Attitude Determination and Control Subsystem.',
-      'Developed processes for in lab testing and characterization of various subsystems.',
-      'Assembled flight hardware in cleanroom.',
-    ],
-  },
-  {
-    company: 'Facebook',
-    position: 'Intern',
-    link: 'https://facebook.com',
-    daterange: 'June 2013 - September 2013',
-    points: [
-      'Developed software in python for automated testing of servers.',
-      'Performed statistical analysis with R, HIVE to assist in triage of malfunctioning servers.',
-      'Worked with vendors and ODM’s during triage to assist in risk mitigation.',
-    ],
-  },
-  {
-    company: 'SEDS-USA',
-    position: 'At Large Board Member',
-    link: 'http://seds.org',
-    daterange: 'October 2013 - October 2014',
-    points: [
-      'Elected to Board of Directors of the USA’s largest student space advocacy group based on 5+ years of work with SEDS.',
-      'Responsibilities included: organizational strategy, conference presentations, fundraising, special projects, promoting SEDS nationally and internationally, and photographing conferences.',
-    ],
-  },
-  {
-    company: 'UB Nanosatellite Program',
-    position: 'Co-founder, Program Manager',
-    link: 'https://ubnl.space/',
-    daterange: 'October 2010 – June 2012',
-    points: [
-      'Coauthored grant to build a multi-spectral imaging satellite as part of the AFRL University Nanosatellite Program.',
-      'Lead a team of 60 students through satellite development life cycle. Served as a technical expert, acquired intimate working knowledge of satellite subsystems.  Solicited funding through NASA, AFOSR, and several corporate sponsors.',
-    ],
+    company: 'Symrise Inc. | The Millenium Group',
+    position: 'Office Service Lead',
+    link: 'https://www.tmgofficeservices.com',
+    daterange: 'August 2013 - September 2018',
+    points: ['Worked as second in command to the department supervisor.', 'Delegated and took on challenging roles first-hand to meet company deadlines for high-priority projects.', 'Processed company flavor or fragrance sample to be sent domestically or internationally.', 'Adhere to IATA and 49CFR shipping standards by following DOT regulations when processing shipments to be sent out.', 'Followed client specifications when processing shipment samples to be sent out to prospective clients.', 'Underwent thorough retraining biannually to cement correct shipping standards as well as learn newly implement procedures.'],
   },
 ];
 
